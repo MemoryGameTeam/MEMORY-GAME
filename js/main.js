@@ -124,7 +124,7 @@ function countClicks(e){  //click block event function
 //         alert("lose you use all your trys clicks press ok to start again");
 //         location.reload();
          setTimeout(function(){
-            gameBlock.innerHTML = "<h1>"+ 'PLEASE TRY AGAIN' + "</h1>"
+            gameBlock.innerHTML = "<h1>"+ 'YOU USE ALL YOUR TRYS CLICKS'+ "</br>" +'PLEASE TRY AGAIN' + "</h1>"
         },500) 
         
     }
