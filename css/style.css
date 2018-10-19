@@ -8,7 +8,7 @@ font-family: 'Chewy', cursive;
 }
 
 #container{
-    width: 80%;
+    width: 75%;
     max-width: 1170;
     margin: 0 auto;
     display: flex;
