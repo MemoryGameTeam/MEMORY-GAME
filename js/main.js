@@ -3,7 +3,7 @@ let imgBlocks=document.getElementsByClassName("blocks");// catch memory blocks t
 // get jason data
 
 let memoryDAta= new XMLHttpRequest(); // ajax request
-memoryDAta.open('GET','../data.json'); //getjson file
+memoryDAta.open('GET','data.json'); //getjson file
 memoryDAta.onload =function(){  //convert json to object 
      gameData=JSON.parse(memoryDAta.responseText); 
      gameData.sort (function(){
