@@ -31,7 +31,7 @@ for(i=0;i<imgBlocks.length;i++){
 //blocks click event
 function countClicks(e){  //click block event function
     if(count%2==1){ // calculate clicks after 2 clicks
-        clicks++; //minues number you should click
+        clicks--; //minues number you should click
          document.getElementById("counte").innerHTML="clicks: "+clicks; //preview clicks in html
         
         }
@@ -117,7 +117,7 @@ function countClicks(e){  //click block event function
     
 
     // if user take all avalible clicks start again
-    if(clicks==31){
+    if(clicks==0){
         alert("lose you use all your trys clicks press ok to start again");
         location.reload();
         
@@ -147,6 +147,6 @@ function timer() {
 startTimer();
 //variable defination   
   let count=0;
-  let clicks=0;
+  let clicks=30;
   let score=0;
   let flag=0;
