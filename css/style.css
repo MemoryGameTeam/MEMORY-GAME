@@ -45,10 +45,10 @@ h1{
 button, h2{
   text-align: center;
   width: 20%;
-  padding: 7px;
+  padding: 10px;
   color:  white;
   background-color: brown;
-  margin: 7px auto;
+  margin: 10px auto;
 }
 .game{
 
