@@ -52,13 +52,23 @@ button, h2{
 }
 .game{
 
-    width: 47%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     background-color: brown;
     margin: 0 auto;
     padding: 10px 0;
 }
+
+.game h1{
+  padding: 30px 0;
+  margin: 140px 0;
+  color: white;
+  text-shadow:2px 2px 2px rgb(163, 151, 155);
+  text-align: center;
+  font-size: 75px;
+}
+
 .game .row1, .game .row2, .game .row3, .game .row4{
 width: 95%;
 display: flex;
