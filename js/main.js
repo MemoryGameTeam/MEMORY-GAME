@@ -1,4 +1,4 @@
-
+let gameBlock=document.getElementById("game");
 let imgBlocks=document.getElementsByClassName("blocks");// catch memory blocks to full
 // get jason data
 
@@ -79,8 +79,11 @@ function countClicks(e){  //click block event function
                     removediv.style.opacity=".1";
                     removediv1.style.opacity=".1";
                     if(score==8){
-                        alert("congratulation suceesed click ok to reset");
-                        location.reload();
+//                         alert("congratulation suceesed click ok to reset");
+//                         location.reload();
+                           setTimeout(function(){
+                            gameBlock.innerHTML = "<h1>"+ 'GREAT'+ ' <br>' +'YOU WON' + "</h1>"
+                        },500)  
                     }
             },200)
                 document.getElementById("score").innerHTML="score: "+score;
@@ -118,8 +121,11 @@ function countClicks(e){  //click block event function
 
     // if user take all avalible clicks start again
     if(clicks==0){
-        alert("lose you use all your trys clicks press ok to start again");
-        location.reload();
+//         alert("lose you use all your trys clicks press ok to start again");
+//         location.reload();
+         setTimeout(function(){
+            gameBlock.innerHTML = "<h1>"+ 'PLEASE TRY AGAIN' + "</h1>"
+        },500) 
         
     }
 
