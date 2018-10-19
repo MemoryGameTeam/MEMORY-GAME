@@ -65,6 +65,13 @@ button, h2{
   text-shadow:2px 2px 2px rgb(163, 151, 155);
 }
 
+.game h2{
+  text-align: center;
+  margin: 10px auto;
+  color: white;
+  text-shadow:2px 2px 2px rgb(163, 151, 155);
+}
+
 .game .row1, .game .row2, .game .row3, .game .row4{
 width: 95%;
 display: flex;
